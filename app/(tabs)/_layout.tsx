@@ -26,16 +26,16 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="stickers"
+        name="index"
         options={{
           title: "Mine",
-          tabBarIcon: ({ color, focused }) => (
-            <Ionicons
-              name={focused ? "person" : "person-outline"}
-              color={color}
-              size={24}
-            />
-          ),
+            tabBarIcon: ({ color, focused }) => (
+              <Ionicons
+                name={focused ? "person" : "person-outline"}
+                color={color}
+                size={24}
+              />
+            ),
         }}
       />
     </Tabs>
